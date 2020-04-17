@@ -10,11 +10,11 @@ body {
 }
 
 .c-green {
-    color: rgb(64, 167, 33);
+    color:#c5165b;
 }
 
 .c-orange {
-  color: #ff9800;
+  color: #c5165b;
 }
 
 .container-errors {
@@ -40,7 +40,7 @@ a{
   header{
     height: 48px;
     width: 100%;
-    background-color: #091f80;
+    background-color: #c5165b;
     position: fixed;
   }
 
@@ -50,7 +50,7 @@ a{
     padding: 0;
     margin: 0;
     list-style-type: disc;
-    background-color: #091f80;
+    background-color: #c5165b;
   }
   
   li{
@@ -162,7 +162,7 @@ a{
   }
 
   .btn{
-    background-color:#063986;
+    background-color:#c5165b;
     color: white;
     border-radius: 16px;
     margin-top: 8px;
@@ -570,14 +570,14 @@ a{
 
   .type-post{
     border-radius: 4px;
-    background-color: #091f80;
+    background-color: #c5165b;
     color: #ffffff;
     border: 0px;
   }
 
   .btn-save-change{
     border-radius: 4px;
-    background-color: #091f80;
+    background-color: #c5165b;
     color: #ffffff;
     border: 0px;
     height: 18px;
@@ -625,7 +625,7 @@ a{
     list-style: none;
     width: 33.33%;
     height: 48px;
-    border-left: 1px solid #1038eb;
+    border-left: 1px solid #c5165b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -764,14 +764,14 @@ a{
 
   .type-post{
     border-radius: 4px;
-    background-color: #091f80;
+    background-color: #c5165b;
     color: #ffffff;
     border: 0px;
   }
 
   .btn-save-change{
     border-radius: 4px;
-    background-color: #091f80;
+    background-color: #c5165b;
     color: #ffffff;
     border: 0px;
     height: 18px;
@@ -855,7 +855,7 @@ a{
   }
 
   .btn{
-    background-color:#063986;
+    background-color:#c5165b;
     color: white;
     border-radius: 16px;
     margin-top: 8px;

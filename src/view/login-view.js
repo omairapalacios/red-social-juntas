@@ -17,7 +17,7 @@ export default () => {
       </div>      
       <form action="" class="form">
         <p>¡Bienvenidx!</p>
-        <p> Sé parte de esta red,<span class="c-green"> promociona y encuentra</span> <span >talento.</span>  </p>
+        <p> Sé parte de esta red,<span class="c-green"> juntas haremos crecer tu negocio</span></p>
         <input type="email" id="email-login" class="input-text" placeholder="Email" required>
         <div class="pass-eye"> 
           <input type="password" id="password-login" class="input-password" placeholder="Password" required>
