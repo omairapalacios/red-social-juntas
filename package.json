@@ -1,0 +1,42 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "Juntas Red de emprendedoras",
+  "main": "src/index.html",
+  "keywords": [
+    "javascript",
+    "firebase",
+    "jest"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "htmlhint": "htmlhint dist/*.html ",
+    "eslint": "eslint --ext .js src/ test/",
+    "stylelint": "stylelint --aei src/**/*.css",
+    "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
+    "test": "jest --coverage",
+    "start": "serve src/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "firebase-mock": "^2.3.2",
+    "htmlhint": "^0.11.0",
+    "jest": "^24.8.0",
+    "mock-cloud-firestore": "^0.11.0",
+    "regenerator-runtime": "^0.13.1",
+    "serve": "^11.3.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0"
+  },
+  "dependencies": {
+    "firebase": "^7.8.0",
+    "firebase-admin": "^8.9.2"
+  }
+}
